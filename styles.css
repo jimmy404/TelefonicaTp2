@@ -34,3 +34,18 @@ nav li a:hover {
 nav li a:active {
   color: black;
 }
+
+footer {
+  background-color: rgb(30, 73, 43);
+  bottom: 0;
+  color: white;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+footer h3 {
+  font-size: 1rem;
+  padding: 1rem;
+}
