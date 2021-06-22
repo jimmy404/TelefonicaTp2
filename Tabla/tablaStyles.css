@@ -1,0 +1,43 @@
+table {
+  align-items: center;
+  background-color: white;
+  border-collapse: collapse;
+  border-color: black;
+  border: 1px solid black;
+  color: black;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  margin: 10px auto;
+  max-width: 600px;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+thead, tfoot {
+  background-color: rgb(235, 123, 44);
+  border-collapse: inherit;
+  border: 1px solid black;
+  color: black;
+  font-size: 1.5rem;
+}
+
+tr, td {
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+th {
+  border: black 1px solid;
+  font-size: 24px;
+}
+
+tr:nth-child(even) td{
+  background:#c2c1ce;
+}
+
+tr:nth-child(odd) td{
+  background:#6962b9;
+}
