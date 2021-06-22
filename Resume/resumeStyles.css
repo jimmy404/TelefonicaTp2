@@ -1,0 +1,143 @@
+.curriculum__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px;
+  min-height: 100vh;
+  padding: 0 20px;
+  position: relative;
+}
+
+.card__container {
+  background: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .3);
+  display: flex;
+  height: auto;
+  width: 800px;
+}
+
+.header__container {
+  border-right: 1px solid #ddd;
+}
+
+.header__container a {
+  display: block;
+  position: relative;
+}
+
+.header__container img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, .06);
+  transition: .2s;
+}
+
+.header__container a:hover img {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.header__container, .description_container {
+  padding: 20px;
+  text-align: center;
+}
+
+.header__container h2{
+  color: rgb(68, 65, 65);
+  font-size: 18px;
+}
+
+.header__container h4{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.description_container {
+  background: #fbfbfb;
+}
+
+.description_container {
+  position: relative;
+}
+
+.description_container p {
+  margin: 20px 30px;
+}
+
+.description_container .skills__icons {
+  margin-top: 25px;
+}
+
+.description_container .skills__icons a {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.description_container p {
+  font-size: 18px;
+}
+
+.fa-html5{
+  color: rgb(233, 81, 43);
+}
+
+.fa-css3-alt {
+  color: rgb(17, 150, 233);
+}
+
+.fa-js {
+  color: rgb(246, 199, 44);
+}
+
+.fa-sass {
+  color: rgb(219, 31, 147);
+}
+
+.fa-react {
+  color: rgb(56, 162, 233);
+}
+
+.fa-github {
+  color: rgb(0, 0, 0);
+}
+
+.fa-linkedin {
+  color: rgb(44, 88, 211);
+}
+
+@media (max-width: 640px) {
+
+  footer {
+    position: relative;
+  }
+
+  .curriculum__container {
+    margin: 15px 15px;
+  }
+
+  .card__container {
+    display: block;
+    width: 450px;
+  }
+
+  .header__container {
+    border: none;
+    padding: 20px 20px 5px 20px;
+  }
+
+  .description_container {
+    background: transparent;
+    padding: 5px 20px 20px 20px;
+  }
+
+  .header__container h2, h4 {
+    margin: 10px;
+  }
+
+  .header__container h2 {
+    font-size: 30px;
+  }
+
+  .header__container h4 {
+    font-size: 22px;
+  }
+}
