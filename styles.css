@@ -27,8 +27,8 @@ nav li a {
 }
 
 nav li a:hover {
-  color: red;
   border-bottom: solid 2px rgb(153, 209, 97);
+  color: red;
 }
 
 nav li a:active {
