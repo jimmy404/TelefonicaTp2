@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: rgb(30, 73, 43);
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 18px;
+  list-style: none;
+  padding: 1rem;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: red;
+  border-bottom: solid 2px rgb(153, 209, 97);
+}
+
+nav li a:active {
+  color: black;
+}
