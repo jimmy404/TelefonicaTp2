@@ -1,3 +1,7 @@
+.table__container {
+  margin: 5vw;
+}
+
 table {
   align-items: center;
   background-color: white;
@@ -15,7 +19,8 @@ table {
   width: 100%;
 }
 
-thead, tfoot {
+thead,
+tfoot {
   background-color: rgb(235, 123, 44);
   border-collapse: inherit;
   border: 1px solid black;
@@ -23,7 +28,8 @@ thead, tfoot {
   font-size: 1.5rem;
 }
 
-tr, td {
+tr,
+td {
   border: 1px solid black;
   font-size: 1rem;
   font-weight: bold;
@@ -34,10 +40,10 @@ th {
   font-size: 24px;
 }
 
-tr:nth-child(even) td{
-  background:#c2c1ce;
+tr:nth-child(even) td {
+  background: #c2c1ce;
 }
 
-tr:nth-child(odd) td{
-  background:#6962b9;
+tr:nth-child(odd) td {
+  background: #6962b9;
 }

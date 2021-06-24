@@ -1,7 +1,7 @@
 .login__form {
   border-radius: 5px;
   border: black 3px solid;
-  margin: 10px auto;
+  margin: 5vw auto;
   max-width: 300px;
 }
 
@@ -36,14 +36,15 @@ form a:active {
   color: black;
 }
 
-form h3, label {
+form h3,
+label {
   color: rgb(19, 22, 22);
   font-size: 24px;
   margin: 10px;
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   color: white;
   cursor: pointer;
