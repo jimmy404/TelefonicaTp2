@@ -1,6 +1,21 @@
+body {
+  background-attachment: fixed;
+  background-image: url("../assets/backgroundLogin.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-bottom: 30px;
+  min-height: 100%;
+  opacity: 0.95;
+  text-align: center;
+}
+
 .login__form {
+  background-color: white;
   border-radius: 5px;
   border: black 3px solid;
+  font-family: "Fira Code", monospace;
   margin: 5vw auto;
   max-width: 300px;
 }
@@ -17,8 +32,11 @@ form {
 }
 
 form input {
+  background-color: transparent;
+  font-family: "Fira Code", monospace;
   height: 40px;
   margin: 10px;
+  padding: 5px;
   width: 80%;
 }
 
@@ -49,6 +67,7 @@ label {
   color: white;
   cursor: pointer;
   display: inline-block;
+  font-family: "Fira Code", monospace;
   font-size: 16px;
   margin: 4px 2px;
   padding: 16px 32px;

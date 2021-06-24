@@ -1,3 +1,17 @@
+body {
+  background-attachment: fixed;
+  background-image: url("../assets/backgroundResume.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Fira Code", monospace;
+  height: 90vh;
+  margin-bottom: 30px;
+  min-height: 100%;
+  opacity: 0.95;
+  text-align: center;
+}
+
 .curriculum__container {
   align-items: center;
   display: flex;
@@ -44,11 +58,12 @@
 .header__container h2 {
   color: rgb(68, 65, 65);
   font-size: 18px;
+  margin-top: 15px;
 }
 
 .header__container h4 {
-  font-size: 18px;
-  margin: 10px;
+  font-size: 16px;
+  margin-top: 58px;
 }
 
 .description_container {
@@ -61,6 +76,7 @@
 
 .description_container p {
   margin: 20px 30px;
+  font-size: 18px;
 }
 
 .description_container .skills__icons {
@@ -70,10 +86,6 @@
 .description_container .skills__icons a {
   display: inline-block;
   padding: 0 15px;
-}
-
-.description_container p {
-  font-size: 18px;
 }
 
 .fa-html5 {
@@ -126,6 +138,11 @@
   .description_container {
     background: transparent;
     padding: 5px 20px 20px 20px;
+  }
+
+  .description_container p {
+    margin: 15px 0;
+    font-size: 16px;
   }
 
   .header__container h2,

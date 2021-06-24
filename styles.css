@@ -5,11 +5,16 @@
 }
 
 header {
+  -moz-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.45);
+  -ms-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.45);
   align-items: center;
-  background-color: rgb(30, 73, 43);
+  background-color: rgb(31, 29, 29);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.45);
   color: white;
   display: flex;
   flex-wrap: nowrap;
+  font-family: "Fira Code", monospace;
   justify-content: space-between;
   padding: 10px;
 }
@@ -22,26 +27,27 @@ nav li {
 }
 
 nav li a {
-  padding: 10px;
-  font-size: 20px;
   color: white;
+  font-size: 16px;
+  padding: 10px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  border-bottom: solid 2px rgb(153, 209, 97);
-  color: red;
+  border-bottom: solid 2px rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
 }
 
 nav li a:active {
-  color: black;
+  color: rgb(216, 151, 151);
 }
 
 footer {
-  background-color: rgb(30, 73, 43);
+  background-color: rgb(31, 29, 29);
   bottom: 0;
   clear: both;
   color: white;
+  font-family: "Fira Code", monospace;
   height: 50px;
   margin: auto;
   overflow: hidden;
@@ -51,11 +57,24 @@ footer {
 }
 
 footer h3 {
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 18px;
+  padding: 10px;
 }
 
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+#container__background {
+  background-attachment: fixed;
+  background-image: url("./assets//background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-bottom: 30px;
+  min-height: 100%;
+  opacity: 0.95;
+  text-align: center;
 }
